@@ -1,4 +1,3 @@
-# my-blog
 
 ## Build Setup
 
