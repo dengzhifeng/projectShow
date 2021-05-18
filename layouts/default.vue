@@ -3,18 +3,19 @@
  * @author: steve.deng
  * @Date: 2021-05-13 10:15:40
  * @LastEditors: steve.deng
- * @LastEditTime: 2021-05-13 17:46:51
+ * @LastEditTime: 2021-05-17 14:25:42
 -->
 <template>
-	<div>
-		<div class="header" v-if="hasNav">
-			<img src="@/assets/nuxt.png" alt="" />
+	<div class="defaultLayout">
+		<!-- <div class="header" v-if="hasNav">
+
+			<img src="@/static/header-bg.jpg" alt="" />
 			<nav class="nav">
 				<nuxt-link to="/">首页</nuxt-link>
 				<nuxt-link to="/category">分类</nuxt-link>
 				<nuxt-link to="/about">关于</nuxt-link>
 			</nav>
-		</div>
+		</div> -->
 
 		<!-- 类似router-view  nuxt-->
 		<Nuxt />
@@ -24,17 +25,13 @@
 export default {
 	computed: {
 		hasNav() {
-			return this.$route.path !== '/login' && this.$route.path !== '/reg';
+			return this.$route.path !== "/login" && this.$route.path !== "/reg";
 		}
 	}
 };
 </script>
-export default { }
 <style lang="scss">
-.header {
-	display: flex;
-	background: #ffffff;
-	justify-content: space-between;
-	align-items: center;
+.defaultLayout {
+	min-width: 1200px;
 }
 </style>

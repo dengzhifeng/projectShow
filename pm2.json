@@ -1,6 +1,6 @@
 [
 	{
-		"name": "demo",
+		"name": "projectShow",
 		"script": "npm run start",
 		"env_dev": {
 			"NODE_ENV": "development"
