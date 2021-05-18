@@ -3,7 +3,7 @@
  * @author: steve.deng
  * @Date: 2021-05-13 07:29:29
  * @LastEditors: steve.deng
- * @LastEditTime: 2021-05-17 18:14:54
+ * @LastEditTime: 2021-05-18 09:57:47
 -->
 <template>
 	<div class="index ">
@@ -68,7 +68,9 @@ export default {
 	.bg {
 		width: 100%;
 		height: 260px;
-		background: center no-repeat url("../assets/image/other/header-bg.jpg");
+		// background: center no-repeat url("../assets/image/other/header-bg.jpg");
+		background: center no-repeat
+			url("https://i.loli.net/2021/05/18/nxjiva314HogdhV.jpg");
 		background-size: cover;
 		display: flex;
 		justify-content: center;
