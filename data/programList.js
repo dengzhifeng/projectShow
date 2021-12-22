@@ -3,7 +3,7 @@
  * @author: steve.deng
  * @Date: 2021-05-17 16:58:35
  * @LastEditors: steve.deng
- * @LastEditTime: 2021-05-17 17:58:32
+ * @LastEditTime: 2021-12-22 16:59:09
  */
 const programList = [
 	// hexo博客
@@ -53,6 +53,18 @@ const programList = [
 		desc: "命令行工具, 可自动提交代码、合并代码、替换文件、上传小程序等", //  描述
 		demoUrl: "https://www.npmjs.com/package/command-cli",
 		gitUrl: "https://github.com/dengzhifeng/command-cli"
+	},
+	// logo-react
+	{
+		// 类型
+		type: ["all", "react"],
+		// 封面图片
+		img: "react",
+		name: "logo-react", // 项目名
+		tech: "React • TS• React-redux", // 技术栈
+		desc: "在线生成logo图片", //  描述
+		demoUrl: "http://logo.dengsteven.cn/logo/",
+		gitUrl: "https://github.com/dengzhifeng/logoly_react"
 	}
 ];
 export default programList;
